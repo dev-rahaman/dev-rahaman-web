@@ -25,7 +25,11 @@ const Navbar = () => {
     <nav className={`navbar ${menuOpen ? "open" : ""}`}>
       <div>
         <Link to={"/"}>
-          <img src="'../../public/logo.png" className="logo" />
+          <img
+            src="https://i.postimg.cc/6pJMJVvt/logo.png"
+            style={{ width: "250px" }}
+            className="logo"
+          />
         </Link>
       </div>
       <div className="menu-icon" onClick={toggleMenu}>
@@ -39,7 +43,9 @@ const Navbar = () => {
             <ActiveLink to={item.link}>{item.text}</ActiveLink>
           </li>
         ))}
-        <button className="btn">Download CV</button>
+        <a href="/rs-abdur-rahaman-sultany-resume.pdf" download className="btn">
+          Download CV
+        </a>
       </ul>
     </nav>
   );

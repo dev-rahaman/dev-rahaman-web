@@ -25,7 +25,7 @@ const AboutHome = () => {
         <div className="right-image">
           <img
             className="img"
-            src="../../../../public/devrahaman.jpg"
+            src="https://i.postimg.cc/bwQhWYkB/devrahaman.jpg"
             alt="me photo"
             width="300px"
           />

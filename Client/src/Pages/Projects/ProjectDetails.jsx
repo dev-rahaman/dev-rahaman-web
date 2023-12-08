@@ -36,7 +36,7 @@ const ProjectDetails = () => {
           </div>
           <div className="project-details-container-right">
             <img
-              src="/public/project-details.jpg"
+              src="https://i.postimg.cc/Zn2mtCw1/project-details.jpg"
               alt=""
               className="project-details-container-right"
             />

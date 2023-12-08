@@ -7,7 +7,13 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-column">
-        <img src="'../../public/logo.png" className="logo footer-logo" />
+        <Link to={"/"}>
+          <img
+            src="https://i.postimg.cc/6pJMJVvt/logo.png"
+            className="logo footer-logo"
+            style={{ width: "250px" }}
+          />
+        </Link>
         <p className="footer-paragraph">
           Sodales ut etiam sit amet. Eget nulla facilisi etiam dignissim.
           Aliquam vestibulum morbi blandit cursus risus. Ultrices vitae auctor
