@@ -1,0 +1,149 @@
+/* ===========================================banner=========================================== */
+.home__bannar__heading {
+  text-align: center;
+}
+
+.home__bannar__para {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.home__bannar__heading__txt {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.home__bannar__heading__color__txt {
+  font-size: 50px;
+  color: var(--secondary);
+  font-weight: bold;
+}
+
+.home__bannar__para__txt {
+  color: #cccccc;
+  font-size: 20px;
+  line-height: 25px;
+  padding-bottom: 20px;
+}
+
+.home__bannar__top {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+.home__bannar__top__txt {
+  color: #fd0000;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 3px 7px 28px 0px rgba(0, 0, 0, 0.377);
+  -webkit-box-shadow: 3px 7px 28px 0px rgba(0, 0, 0, 0.342);
+  -moz-box-shadow: 3px 7px 28px 0px rgba(0, 0, 0, 0.37);
+}
+
+.home__bannar__top__txt span {
+  color: #000000;
+}
+
+.home__bannar {
+  height: 100vh;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://rsrahaman.github.io/Agency-Home/Image/bannar-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.home__bannar__btn {
+  margin-top: 50px;
+}
+
+.home__bannar__btn a:first-child {
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #fff;
+  background-color: #ffaa17;
+  margin-top: 1rem;
+  border: 2px solid #ffaa17;
+  padding: 1rem 2.25rem;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.home__bannar__btn a:first-child:hover {
+  color: rgb(255, 255, 255);
+  background-color: var(--bgc);
+  border: 2px solid rgb(255, 255, 255);
+  transition: 0.5s;
+}
+
+.home__bannar__btn a:last-child {
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: #fff;
+  background-color: #f94c30;
+  margin-top: 1rem;
+  border: 2px solid #f94c30;
+  padding: 1rem 2.25rem;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.home__bannar__btn a:last-child:hover {
+  color: rgb(255, 255, 255);
+  background-color: var(--bgc);
+  border: 2px solid rgb(255, 255, 255);
+  transition: 0.5s;
+}
+
+/* ===============services-end======== */
+
+@media (max-width: 576px) {
+  .home__bannar__para {
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  .home__bannar {
+    background-size: cover;
+    padding-bottom: none;
+    background-attachment: local;
+  }
+
+  .home__bannar__heading__txt {
+    font-size: 30px;
+  }
+
+  .home__bannar__para__txt {
+    padding: 10px 30px;
+  }
+
+  .home__bannar__btn {
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+
+  .home__bannar__btn a:first-child {
+    padding: 1rem;
+    font-size: 14px;
+  }
+
+  .home__bannar__btn a:last-child {
+    padding: 1rem;
+    font-size: 14px;
+  }
+
+  .center {
+    font-size: 25px;
+    padding: 0 40px;
+  }
+}

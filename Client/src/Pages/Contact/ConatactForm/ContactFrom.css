@@ -1,0 +1,168 @@
+.contact-me-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.landscape-cart {
+  width: 450px;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  background-color: #112240;
+  margin: 20px 50px;
+}
+
+.image-container {
+  margin-right: 20px;
+  background-color: #61f7d4;
+  padding: 10px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-container-fist {
+  width: 20px;
+  height: 150px;
+}
+
+.image-container img {
+  width: 30px;
+  height: 36px;
+}
+.image-container-last {
+  width: 80px;
+  height: 35px;
+}
+
+.content-container h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #61f7d4;
+}
+
+.content-container a {
+  color: #fff;
+}
+
+.content-container h3 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.content-container p {
+  font-size: 20px;
+}
+
+.big-image {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  box-shadow: 2px 10px 24px 4px rgba(205, 255, 238, 0.22);
+  -webkit-box-shadow: 2px 10px 24px 4px rgba(205, 255, 238, 0.22);
+  -moz-box-shadow: 2px 10px 24px 4px rgba(205, 255, 238, 0.22);
+}
+.big-image2 {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+}
+
+.middle {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px 0;
+}
+.middle span a {
+  color: #fff;
+}
+.cart-email {
+  margin: 10px 0;
+}
+
+.social-container {
+  margin-top: 10px;
+}
+
+/* =========================== */
+.contact-me-container-two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  margin: 50px;
+  color: #fff;
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid transparent;
+  outline: none;
+}
+
+input:focus,
+textarea:focus {
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid;
+  outline: none;
+}
+
+textarea {
+  height: 150px;
+  margin-bottom: 16px;
+  border: none;
+  outline: none;
+  padding: 10px;
+}
+
+.contact-button {
+  padding: 8px 16px;
+  background-color: var(--secondary);
+  color: #112240;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-button:hover {
+  color: #fff;
+  background-color: var(--hover);
+}
+
+/* ======================== */
+@media (max-width: 576px) {
+  .landscape-cart {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  form {
+    width: 300px;
+    margin: 0;
+  }
+
+  .landscape-cart {
+    margin: 30px 10px;
+  }
+}

@@ -1,0 +1,9 @@
+/* active link  start*/
+a {
+  color: var(--third);
+}
+
+a.active {
+  color: #dd4242;
+}
+/* active link  end*/
