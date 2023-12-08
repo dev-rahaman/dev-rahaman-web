@@ -1,5 +1,6 @@
 import React from "react";
 import "./Services.css";
+import ServicesBanner from "./ServicesBanner";
 
 const cartItems = [
   {
@@ -79,24 +80,27 @@ const cartItems = [
 
 const Services = () => {
   return (
-    <div className="services-container">
-      <div className="services">
-        {cartItems &&
-          cartItems.map((item, idx) => (
-            <div className="services_cart" key={idx}>
-              <img
-                src={item?.cart_img}
-                alt="landing-page"
-                className="cart_img"
-                width="100px"
-              />
+    <>
+      <ServicesBanner />
+      <div className="services-container">
+        <div className="services">
+          {cartItems &&
+            cartItems.map((item, idx) => (
+              <div className="services_cart" key={idx}>
+                <img
+                  src={item?.cart_img}
+                  alt="landing-page"
+                  className="cart_img"
+                  width="100px"
+                />
 
-              <h2 className="cart_heading">{item?.cart_heading}</h2>
-              <p className="cart_para">{item?.cart_paragraph}</p>
-            </div>
-          ))}
+                <h2 className="cart_heading">{item?.cart_heading}</h2>
+                <p className="cart_para">{item?.cart_paragraph}</p>
+              </div>
+            ))}
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 
