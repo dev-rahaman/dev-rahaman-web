@@ -18,22 +18,26 @@
 .footer-column h3 {
   font-size: 30px;
   font-weight: bolder;
-  color: #fff;
+  color: var(--third);
 }
 
 .footer-link {
   font-size: 19px;
-  color: #fff;
+  color: var(--third);
   line-height: 40px;
 }
 
 .footer-link a {
-  color: #fff;
+  color: var(--third);
+}
+
+.footer-link a:hover {
+  color: #dd4242;
 }
 
 .footer-paragraph {
   font-size: 19px;
-  color: #fff;
+  color: var(--third);
   line-height: 40px;
 }
 
@@ -43,11 +47,10 @@
 
 .footer-column ul li {
   font-size: 19px;
-  color: #fff;
   line-height: 40px;
 }
 
-.footer-column ul li:hover {
+.footer-column ul li a:hover {
   color: #dd4242;
   transition: 0.5s;
 }
@@ -62,7 +65,7 @@
   font-size: 30px;
   background-color: #15171c;
   transition: 0.5s;
-  border-bottom: 1px solid red;
+  border-bottom: 1px solid #dd4242;
   color: #fff;
   margin-right: 20px;
   display: block;

@@ -10,6 +10,7 @@ import Contact from "../Pages/Contact/Contact";
 import ProjectDetails from "../Pages/Projects/ProjectDetails";
 import Projects from "../Pages/Projects/Projects";
 import Services from "../Pages/Services/Services";
+import Blogs from "../Pages/Blogs/Blog";
 
 const Router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ const Router = createBrowserRouter([
       {
         path: "/resume",
         element: <Resume></Resume>,
+      },
+      {
+        path: "/blogs",
+        element: <Blogs />,
       },
       {
         path: "/contact",

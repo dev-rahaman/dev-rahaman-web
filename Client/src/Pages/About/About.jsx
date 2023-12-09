@@ -12,7 +12,14 @@ const About = () => {
           alt=""
         />
       </div>
-      <h2 className="cart-heading">Abdur Rahaman Sultnay</h2>
+      <div className="about-my-photo-container">
+        <img
+          src="/abdur-rahaman sultany.png"
+          className="about-my-photo"
+          alt=""
+        />
+        <h2 className="cart-heading">Abdur Rahaman Sultnay</h2>
+      </div>
       <div className="settings-animation">
         <div>
           <IoMdSettings className="art" />

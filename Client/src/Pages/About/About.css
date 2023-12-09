@@ -15,6 +15,18 @@
   border-radius: 50%;
 }
 
+.about-my-photo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.about-my-photo {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
 .settings-animation {
   display: flex;
   align-items: center;
