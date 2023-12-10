@@ -13,15 +13,23 @@ const Projects = () => {
       });
   }, []);
 
+  console.log(projects);
+
   return (
-    <div>
+    <>
       <div className="card-container">
         {projects.map((project, idx) => (
-          <div className="blog-card" key={idx}>
-            <div className="blog-details">
+          <div
+            className="project-card"
+            style={{
+              background: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("${project.projectImage}") center/cover`,
+            }}
+            key={idx}
+          >
+            <div className="project-details">
               <h3 className="about-me-title">{project.projectName}</h3>
               <p className="home__bannar__para__txt">
-                {project.description.slice(0, 150)}
+                {project.projectDescription.slice(0, 150)}
                 <strong>&hellip;</strong>
               </p>
               <Link to={`/projects/${project._id}`} className="btn">
@@ -31,7 +39,7 @@ const Projects = () => {
           </div>
         ))}
       </div>
-    </div>
+    </>
   );
 };
 

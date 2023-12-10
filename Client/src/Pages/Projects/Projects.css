@@ -6,26 +6,25 @@
   margin: 50px 0;
 }
 
-.blog-card {
+.project-card {
   position: relative;
   width: 400px;
   height: 500px;
   border-radius: 10px;
   overflow: hidden;
   margin: 20px;
-  background: url("/public/abdur-rahaman-sultany-full-stack-developer-mern-stack-developer-web-developer-dev-rahamn-rahaman-d.png")
-    center/cover;
   color: #fff;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
 }
 
-.blog-card:hover .blog-details {
+.project-card:hover .project-details {
   transform: translateY(0);
+  opacity: 1.5;
 }
 
-.blog-details {
+.project-details {
   background-color: rgba(0, 0, 0, 0.8);
   padding: 20px;
   box-sizing: border-box;

@@ -1,53 +1,64 @@
-import { useLoaderData } from "react-router-dom";
+import { Link, useLoaderData } from "react-router-dom";
 import "./ProjectDetails.css";
 
 const ProjectDetails = () => {
   const loadData = useLoaderData();
-  const { projectName, projectTitle, description, gihub, live, picture, tags } =
-    loadData;
+  const {
+    projectName,
+    projectTitle,
+    projectDescription,
+    review,
+    gitHub,
+    liveLink,
+    backgroundImage,
+    videoLink,
+    simpleImage,
+  } = loadData;
 
   return (
     <div>
       <div>
-        <div className="overlay project-name-container">
+        <div
+          className="overlay project-name-container"
+          style={{
+            background: `url("${backgroundImage}") center/cover`,
+            backgroundAttachment: "fixed",
+          }}
+        >
           <h2 className="project-name">{projectName}</h2>
+          <p>{projectTitle}</p>
         </div>
         <div className="project-details-container">
           <div className="project-details-container-left">
             <div className="description">
               <h2 className="project-title">Description :</h2>
-              <p className="project-para">{description}</p>
-            </div>
-            <div className="description">
-              <h2 className="project-title">Client :</h2>
-              <p className="project-para">
-                Maecenas eu vehicula felis Aen ean eleme ntum tortor ac nu
-                Aliquam erat volutpat. Nulla molestie risus eget nibh mollis
-                ultricies. Integer porttitor vehicula nisi, sit amet volutpat
-                erat tincidunt non.
-              </p>
+              <p className="project-para">{projectDescription}</p>
             </div>
             <div className="description">
               <h2 className="project-title">Review:</h2>
-              <p className="project-para">
-                Vehicula maecenas eu felis Aen ean elementum
-              </p>
+              <p className="project-para">{review}</p>
             </div>
           </div>
           <div className="project-details-container-right">
             <img
-              src="https://i.postimg.cc/Zn2mtCw1/project-details.jpg"
+              src={simpleImage}
               alt=""
               className="project-details-container-right"
             />
           </div>
         </div>
+        <div className="link-middle home__bannar__btn">
+          <Link to={liveLink} target="_blank" className=" ">
+            Live View
+          </Link>
+          <Link to={gitHub} target="_blank" className="btn">
+            Code on GitHub
+          </Link>
+        </div>
         <div className="video">
           <iframe
-            width="95%"
-            height="600px"
-            style={{ margin: "0 30px" }}
-            src="https://www.youtube.com/embed/uliYkHK3pKg?si=TR1WeaxsZzzjnZf5"
+            className="iframe"
+            src={videoLink}
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
