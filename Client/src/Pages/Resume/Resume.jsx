@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import React from "react";
 import "./Resume.css";
 import ResumePhape from "../../Components/ResumePhape/ResumePhape";
@@ -31,33 +32,45 @@ const Resume = () => {
       </h2>
       <div className="shape-container">
         <ResumePhape
-          itemTitle={"Experiences"}
-          number={"1"}
+          itemTitle={"About Me"}
+          number={"5"}
           date={"2023 - Now"}
-          shapeHeading={"Founder & Creative Director"}
-          shapeTitle={"Kyros Studio"}
+          shapeHeading={"Abdur Rahaman Sultany"}
+          shapeTitle={"MERN Stack Developer"}
           shapePara={
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi tempora perferendis vero officia enim impedit voluptatem dignissimos, veniam ratione est alias rerum aperiam, nam aliquam reprehenderit iste dolor."
+            "I am a seasoned MERN Stack developer, bringing years of expertise to the table in crafting intuitive and captivating user interfaces for web applications. My proficiency extends across CSS, JavaScript, React.js, Next.js, and Redux. Committed to staying at the forefront of the industry, I consistently incorporate the latest trends and adhere to best practices in both front-end and full-stack development. he consistently delivers innovative and seamless solutions that exceed client expectations. Clients can trust in his unwavering dedication to excellence for their projects."
           }
         ></ResumePhape>
         <ResumePhape
           itemTitle={"Education"}
           number={"2"}
           date={"2023 - Now"}
-          shapeHeading={"Master in Design"}
+          shapeHeading={"Master in Islamic Scholarship & Web Development"}
           shapeTitle={"New York University"}
           shapePara={
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi tempora perferendis vero officia enim impedit voluptatem dignissimos, veniam ratione est alias rerum aperiam, nam aliquam reprehenderit iste dolor."
+            "In 2021, I completed my master's in Islamic scholarship. Seeking a new challenge, I ventured into computer science, focusing on web development. Now, I'm a full-stack developer with expertise in the MERN stack. I've successfully completed the 'Complete Web Development in MERN Stack' course and contributed to various team projects on platforms like Fiverr and Upwork. This journey reflects my adaptability and commitment to continuous learning, and I look forward to making further strides in the dynamic field of technology."
           }
         ></ResumePhape>
+
+        <ResumePhape
+          itemTitle={"Experiences"}
+          number={"1"}
+          date={"2023 - Now"}
+          shapeHeading={"Owner and CEO of yourpost.com"}
+          shapeTitle={"Owner and CEO"}
+          shapePara={
+            "yourpost.com is A revolutionary all-in-one social media platform combining the best features of Facebook, LinkedIn, Instagram, and Twitter. Share images, videos, and articles, and go live to express yourself. Engage with others through likes, comments, and follows. Join or create interest-based groups. Share posts not only on the platform but also on external websites for wider reach. Regular updates ensure a cutting-edge experience. Join ATG-post today for a dynamic, user-friendly social media journey."
+          }
+        ></ResumePhape>
+
         <ResumePhape
           itemTitle={"Skills"}
           number={"3"}
           date={"2023 - Now"}
-          shapeHeading={"Founder & Creative Director"}
-          shapeTitle={"Kyros Studio"}
+          shapeHeading={"I have Good Esperance in"}
+          shapeTitle={"Web Development"}
           shapePara={
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi tempora perferendis vero officia enim impedit voluptatem dignissimos, veniam ratione est alias rerum aperiam, nam aliquam reprehenderit iste dolor."
+            "HTML, CSS, JavaScript, MERN Stack, React.js, Next.js, Node.js, Express.js,  socket.io, Firebase, MongoDB, Monggose, TailwindCSS, Bootstrap. I have worked a lot of projects with those technologies. in E-commerce store, Social media platform, E-learning platforms, Project management tools, Booking and reservation systems, Food delivery and restaurant reservation, Health and fitness Website, Music and video streaming services, News and media websites, Conversion PSD/XD/Figma, Job portals and freelance marketplaces"
           }
         ></ResumePhape>
         {/* <ResumePhape
@@ -77,9 +90,7 @@ const Resume = () => {
           number={"4"}
           date={"2023 - Now"}
           shapeHeading={"Some projects I've worked on"}
-          shapeTitle={
-            "ATG-Post, The-Cookers, Alive-baby, Dream Jobs, Romo Blogs, Skill-Zone, Cryptiam and more."
-          }
+          shapeTitle={"Live Projects"}
           shapePara={
             <>
               <RESUMEPROJECTLINK
@@ -108,22 +119,37 @@ const Resume = () => {
               />
               <RESUMEPROJECTLINK
                 Link="https://sultany-template-y6zm.vercel.app/"
-                name={" sultany-template"}
+                name={"Sultany Template"}
+              />
+              <RESUMEPROJECTLINK
+                Link="https://sultany-template-y6zm.vercel.app/"
+                name={"Restaurant Website"}
+              />
+              <RESUMEPROJECTLINK
+                Link="https://the-cooker-52354.web.app/"
+                name={"The Cooker"}
+              />
+              <RESUMEPROJECTLINK Link="#" name={"Toy Marketplace"} />
+              <RESUMEPROJECTLINK
+                Link="https://skillz-zone.web.app/"
+                name={"Skills Zone"}
+              />
+              <RESUMEPROJECTLINK
+                Link="https://upwrok-1.vercel.app/"
+                name={"Edit and Update Agency Website"}
+              />
+              <RESUMEPROJECTLINK
+                Link="#"
+                name={"Working Project Fix Bug on Quiz Hero"}
+              />
+              <RESUMEPROJECTLINK
+                Link="#"
+                name={"Working Project Fix Bug on Quiz Hero"}
               />
             </>
           }
         ></ResumePhape>
 
-        <ResumePhape
-          itemTitle={"About Me"}
-          number={"5"}
-          date={"2023 - Now"}
-          shapeHeading={"Abdur Rahaman Sultany"}
-          shapeTitle={"MERN Stack Developer"}
-          shapePara={
-            "I'm an experienced MERN Stack developer with years of expertise in creating intuitive and engaging user interfaces for web applications. I have a deep understanding of CSS, JavaScript, Reactjs, Nextjs Redux, and I stay up-to-date with the latest trends and best practices in front-end and full-stack development."
-          }
-        ></ResumePhape>
         <ResumePhape
           itemTitle={"tools"}
           number={"6"}
