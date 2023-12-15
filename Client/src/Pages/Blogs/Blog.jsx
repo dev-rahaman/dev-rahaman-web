@@ -6,7 +6,7 @@ const Blogs = () => {
     <div className="blogs-container">
       <div className="blog-card-r">
         <div className="blog-header">
-          <img className="blog-image" src="/public/blog.jpg" alt="Blog Image" />
+          <img className="blog-image" src="/blog.jpg" alt="Blog Image" />
           <span className="category">App Development</span>
         </div>
         <div>
@@ -28,7 +28,7 @@ const Blogs = () => {
       </div>
       <div className="blog-card-r">
         <div className="blog-header">
-          <img className="blog-image" src="/public/blog.jpg" alt="Blog Image" />
+          <img className="blog-image" src="/blog.jpg" alt="Blog Image" />
           <span className="category">App Development</span>
         </div>
         <div>
@@ -50,7 +50,7 @@ const Blogs = () => {
       </div>
       <div className="blog-card-r">
         <div className="blog-header">
-          <img className="blog-image" src="/public/blog.jpg" alt="Blog Image" />
+          <img className="blog-image" src="/blog.jpg" alt="Blog Image" />
           <span className="category">App Development</span>
         </div>
         <div>

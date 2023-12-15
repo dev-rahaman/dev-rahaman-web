@@ -1,12 +1,11 @@
 import React from "react";
 import "./About.css";
 import { IoMdSettings } from "react-icons/io";
-import ContactFormTwo from "../Contact/ConatactFormTwo/ContactFormTwo";
+import ContactForm from "../Contact/ConatactForm/ContactForm";
 
 const About = () => {
   return (
     <>
-      {" "}
       <div className="about-container">
         <div className="border-cart-container">
           <img
@@ -75,7 +74,7 @@ const About = () => {
         </p>
       </div>
       <h2 className="center ">Contact Me</h2>
-      <ContactFormTwo />
+      <ContactForm />
     </>
   );
 };

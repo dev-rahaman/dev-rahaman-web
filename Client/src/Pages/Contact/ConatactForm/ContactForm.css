@@ -47,3 +47,21 @@ input:focus {
   align-items: center;
   justify-content: center;
 }
+
+/* ======================== */
+@media (max-width: 576px) {
+  .inputFields {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  input {
+    width: 300px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 1.5px solid var(--third);
+    color: #fff;
+    background-color: transparent;
+  }
+}
