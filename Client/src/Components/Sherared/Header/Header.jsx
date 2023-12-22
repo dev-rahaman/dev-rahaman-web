@@ -43,7 +43,7 @@ const Navbar = () => {
             <ActiveLink to={item.link}>{item.text}</ActiveLink>
           </li>
         ))}
-        <a href="/rs-abdur-rahaman-sultany-resume.pdf" download className="btn">
+        <a href="/ABDUR-RAHAMAN-SULTANY-CV-Resume.pdf" download className="btn">
           Download CV
         </a>
       </ul>

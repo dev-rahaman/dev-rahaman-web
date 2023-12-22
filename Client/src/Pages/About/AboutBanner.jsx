@@ -9,7 +9,7 @@ const AboutBanner = () => {
         <div className="home__bannar__bottom">
           <div className="home__bannar__top">
             <span className="home__bannar__top__txt">
-              <span>FULL STACK DEVELOPER</span>
+              <span>Full Stack Developer</span>
             </span>
           </div>
           <div className="home__bannar__heading">
@@ -21,7 +21,7 @@ const AboutBanner = () => {
             <div className="home__bannar__para">
               <p className="home__bannar__para__txt">
                 I`m Abdur Rahaman Sultany, an accomplished web
-                developer/designer since 2021. With 700+ live web projects
+                developer/designer since 2021. With 400+ live web projects
                 across MERN Stack, NextJs, Redux, HTML, CSS, JS, and WordPress,
                 I bring visions to life.
               </p>

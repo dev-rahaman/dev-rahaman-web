@@ -1,22 +1,21 @@
 import React from "react";
 import { createBrowserRouter } from "react-router-dom";
-import ErrorPages from "../Pages/ErrorPage/ErrorPages";
 import Main from "../Layout/Main";
 import Home from "../Pages/Home/Home";
 import About from "../Pages/About/AboutBanner";
 import Resume from "../Pages/Resume/Resume";
 import Contact from "../Pages/Contact/Contact";
-// import WorkSimple from "../Pages/WorkSimple/WorkSimple";
 import ProjectDetails from "../Pages/Projects/ProjectDetails";
 import Projects from "../Pages/Projects/Projects";
 import Services from "../Pages/Services/Services";
 import Blogs from "../Pages/Blogs/Blog";
+import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 
 const Router = createBrowserRouter([
   {
     path: "/",
     element: <Main></Main>,
-    errorElement: <ErrorPages />,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: "/",

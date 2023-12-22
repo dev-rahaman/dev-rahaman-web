@@ -15,10 +15,9 @@ const Footer = () => {
           />
         </Link>
         <p className="footer-paragraph">
-          Sodales ut etiam sit amet. Eget nulla facilisi etiam dignissim.
-          Aliquam vestibulum morbi blandit cursus risus. Ultrices vitae auctor
-          eu augue ut lectus. Ultricies integer quis auctor elit sed vulputate
-          mi sit amet.
+          I`m Abdur Rahaman Sultany, an accomplished web developer/designer
+          since 2021. With 400+ live web projects across MERN Stack, NextJs,
+          Redux, HTML, CSS, JS, and WordPress, I bring visions to life.
         </p>
         <form className="footer-form">
           <input type="email" name="subscribe" id="" className="subscribe" />
@@ -32,7 +31,7 @@ const Footer = () => {
         <p className="footer-link">
           <strong>Location: </strong>
           <ActiveLink
-            target="_blank"
+            target="blank"
             to={"https://maps.app.goo.gl/2AC7ovxnUD6vZvK96"}
           >
             Kaneshtala Shadar Dakhshin Comilla Bangladesh
@@ -41,6 +40,7 @@ const Footer = () => {
         <p className="footer-link">
           <strong>Phone: </strong>
           <ActiveLink to={"tel:01601313258"}>+88 01601313258</ActiveLink>
+          <ActiveLink to={"tel:01619512068"}>+88 01619512068</ActiveLink>
         </p>
         <p className="footer-link">
           <strong>Mail: </strong>
@@ -56,20 +56,55 @@ const Footer = () => {
         <h3>Services</h3>
         <ul>
           <li>
-            <ActiveLink to={"/brandingIdentity"}>
-              Branding & Identity
+            <ActiveLink to={"/"}>Branding & Identity</ActiveLink>
+          </li>
+          <li>
+            <ActiveLink to={"/projects"}>Web Design & Development</ActiveLink>
+          </li>
+          <li>
+            <ActiveLink
+              to={"https://www.linkedin.com/in/dev-rahaman/"}
+              target={"target"}
+            >
+              Linkedin
             </ActiveLink>
           </li>
           <li>
-            <ActiveLink to={"/WebDesignDevelopment"}>
-              Web Design & Development
+            <ActiveLink to={"https://github.com/dev-rahaman"} target={"target"}>
+              GitHub
             </ActiveLink>
           </li>
           <li>
-            <ActiveLink to={"/UiUXDesigning"}>UI & UX Designing</ActiveLink>
+            <ActiveLink
+              to={"https://twitter.com/dev_rahaman"}
+              target={"target"}
+            >
+              X (Twitter){" "}
+            </ActiveLink>
           </li>
           <li>
-            <ActiveLink to={"/digitalMarketing"}>Digital Marketing</ActiveLink>
+            <ActiveLink
+              to={"https://www.facebook.com/rahamandev"}
+              target={"target"}
+            >
+              Facebook
+            </ActiveLink>
+          </li>
+          <li>
+            <ActiveLink
+              to={"https://www.instagram.com/dev_rahaman/"}
+              target={"target"}
+            >
+              Instagram
+            </ActiveLink>
+          </li>
+          <li>
+            <ActiveLink
+              to={"https://www.youtube.com/@dev-rahaman"}
+              target={"target"}
+            >
+              YouTube Channel
+            </ActiveLink>
           </li>
         </ul>
       </div>

@@ -67,7 +67,7 @@ const Resume = () => {
           itemTitle={"Skills"}
           number={"3"}
           date={"2023 - Now"}
-          shapeHeading={"I have Good Esperance in"}
+          shapeHeading={"I have Good Experience in"}
           shapeTitle={"Web Development"}
           shapePara={
             "HTML, CSS, JavaScript, MERN Stack, React.js, Next.js, Node.js, Express.js,  socket.io, Firebase, MongoDB, Monggose, TailwindCSS, Bootstrap. I have worked a lot of projects with those technologies. in E-commerce store, Social media platform, E-learning platforms, Project management tools, Booking and reservation systems, Food delivery and restaurant reservation, Health and fitness Website, Music and video streaming services, News and media websites, Conversion PSD/XD/Figma, Job portals and freelance marketplaces"

@@ -3,10 +3,14 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import "./ActiveLink.css";
 
-const ActiveLink = ({ to, children }) => {
+const ActiveLink = ({ to, children, target }) => {
   return (
     <div>
-      <NavLink to={to} className={({ isActive }) => (isActive ? "active" : "")}>
+      <NavLink
+        target={target}
+        to={to}
+        className={({ isActive }) => (isActive ? "active" : "")}
+      >
         {children}
       </NavLink>
     </div>

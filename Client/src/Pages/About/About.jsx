@@ -26,7 +26,7 @@ const About = () => {
           <div>
             <IoMdSettings className="art" />
           </div>
-          <h3 className="cart-title">Full Stack Developer</h3>
+          <h3 className="cart-title">Full Stack Developer with MERN</h3>
           <div>
             <IoMdSettings className="art2" />
           </div>
