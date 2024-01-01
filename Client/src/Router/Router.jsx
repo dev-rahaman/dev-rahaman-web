@@ -42,6 +42,7 @@ const Router = createBrowserRouter([
         path: "/experience",
         element: <Home></Home>,
       },
+
       // {
       //   path: "/work-simple",
       //   element: <WorkSimple></WorkSimple>,

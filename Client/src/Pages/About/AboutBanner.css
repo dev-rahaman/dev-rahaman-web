@@ -68,7 +68,7 @@
 .home__bannar__btn a:first-child {
   font-size: 1rem;
   font-weight: bold;
-  font-family: sans-serif;
+
   color: #fff;
   background-color: #ffaa17;
   margin-top: 1rem;
@@ -88,7 +88,6 @@
 .home__bannar__btn a:last-child {
   font-size: 1rem;
   font-weight: bold;
-  font-family: sans-serif;
   color: #fff;
   background-color: #f94c30;
   margin-top: 1rem;
