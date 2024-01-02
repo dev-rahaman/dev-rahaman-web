@@ -11,13 +11,14 @@ const Blogs = () => {
         </div>
         <div className="blog-content-container">
           <div className="blog-content">
+            <span className="date">October 16, 2023</span>
             <h2 className="blog-title">
               The Science Of Mobile App Development
             </h2>
-            <span className="date">October 16, 2023</span>
             <div className="blog-footer">
               <p>Comments: 5</p>
               <p>Likes: 10</p>
+              <p>Shear: 2</p>
             </div>
           </div>
         </div>
@@ -29,13 +30,14 @@ const Blogs = () => {
         </div>
         <div className="blog-content-container">
           <div className="blog-content">
+            <span className="date">October 16, 2023</span>
             <h2 className="blog-title">
               The Science Of Mobile App Development
             </h2>
-            <span className="date">October 16, 2023</span>
             <div className="blog-footer">
               <p>Comments: 5</p>
               <p>Likes: 10</p>
+              <p>Shear: 2</p>
             </div>
           </div>
         </div>
@@ -47,13 +49,14 @@ const Blogs = () => {
         </div>
         <div className="blog-content-container">
           <div className="blog-content">
+            <span className="date">October 16, 2023</span>
             <h2 className="blog-title">
               The Science Of Mobile App Development
             </h2>
-            <span className="date">October 16, 2023</span>
             <div className="blog-footer">
               <p>Comments: 5</p>
               <p>Likes: 10</p>
+              <p>Shear: 2</p>
             </div>
           </div>
         </div>
