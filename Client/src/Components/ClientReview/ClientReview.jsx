@@ -1,78 +1,118 @@
 import React from "react";
 import "./testmonials.css";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
-const TestimonialCard = () => {
+const testimonials = [
+  {
+    id: 1,
+    avatar: "/devRahamanSmile.jpg",
+    name: "restoremobility",
+    rating: 5,
+    countryFlag: "/USA.png",
+    country: "United States",
+    review:
+      "He was very communicative and prompt with the delivery of my service. I would absolutely order from him again.",
+    reviewImage: "/review-image.png",
+  },
+  {
+    id: 2,
+    avatar: "/devRahamanSmile.jpg",
+    name: "javlaba",
+    rating: 5,
+    countryFlag: "/USA.png",
+    country: "United States",
+    review:
+      "He was very communicative and prompt with the delivery of my service. I would absolutely order from him again.",
+    reviewImage: "/review-image.png",
+  },
+  {
+    id: 3,
+    avatar: "/devRahamanSmile.jpg",
+    name: "javlaba",
+    rating: 5,
+    countryFlag: "/USA.png",
+    country: "United States",
+    review:
+      "He was very communicative and prompt with the delivery of my service. I would absolutely order from him again.",
+    reviewImage: "/review-image.png",
+  },
+  {
+    id: 4,
+    avatar: "/devRahamanSmile.jpg",
+    name: "javlaba",
+    rating: 5,
+    countryFlag: "/USA.png",
+    country: "United States",
+    review:
+      "He was very communicative and prompt with the delivery of my service. I would absolutely order from him again.",
+    reviewImage: "/review-image.png",
+  },
+];
+
+const TestimonialSlider = () => {
+  const sliderSettings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
+  
   return (
-    <div className="testimonial-container">
-      <div className="testimonial-card">
-        <img
-          src={"/devRahamanSmile.jpg"}
-          alt={`Avatar of abdur-rahaman sultany`}
-          className="avatar"
-        />
-        <div>
-          <div className="testimonial-ratings">
-            {/* {Array.from({ length: rating }, (_, index) => (
-          <span key={index}>&#9733;</span>
-        ))} */}
-            <span> &#9733; &#9733; &#9733; &#9733; &#9733;</span>
-          </div>
-          <h3 className="testimonial-name">restoremobility</h3>
-          <div className="testimonial-title">
-            <img src="/USA.png" alt="" width={20} className="flag" />
-            <span>United States</span>
-          </div>
-          <div className="testimonial-review-container">
-            <p className="testimonial-review">
-              Working with Dev Rahaman on my books website was fantastic! The
-              site beautifully showcases. Dev demonstrated top-notch skills and
-              communication. Highly recommend!
-            </p>
-            <div>
+    <div className="testimonials">
+      <Slider {...sliderSettings}>
+        {testimonials.map((testimonial, idx) => (
+          <div className="testimonial-container" key={idx}>
+            <div key={testimonial.id} className="testimonial-card">
               <img
-                src="/review-image.png"
-                alt=""
-                className="testimonial-review-image"
+                src={testimonial.avatar}
+                alt={`Avatar of ${testimonial.name}`}
+                className="avatar"
               />
+              <div>
+                <div className="testimonial-ratings">
+                  {Array.from({ length: testimonial.rating }, (_, index) => (
+                    <span key={index}>&#9733;</span>
+                  ))}
+                </div>
+                <h3 className="testimonial-name">{testimonial.name}</h3>
+                <div className="testimonial-title">
+                  <img
+                    src={testimonial.countryFlag}
+                    alt=""
+                    width={20}
+                    className="flag"
+                  />
+                  <span>{testimonial.country}</span>
+                </div>
+                <div className="testimonial-review-container">
+                  <p className="testimonial-review">{testimonial.review}</p>
+                  <div>
+                    <img
+                      src={testimonial.reviewImage}
+                      alt=""
+                      className="testimonial-review-image"
+                    />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-      <div className="testimonial-card">
-        <img
-          src={"/devRahamanSmile.jpg"}
-          alt={`Avatar of abdur-rahaman sultany`}
-          className="avatar"
-        />
-        <div>
-          <div className="testimonial-ratings">
-            {/* {Array.from({ length: rating }, (_, index) => (
-            <span key={index}>&#9733;</span>
-          ))} */}
-            <span> &#9733; &#9733; &#9733; &#9733; &#9733;</span>
-          </div>
-          <h3 className="testimonial-name">javlaba</h3>
-          <div className="testimonial-title">
-            <img src="/USA.png" alt="" width={20} className="flag" />
-            <span>United States</span>
-          </div>
-          <div className="testimonial-review-container">
-            <p className="testimonial-review">
-              He was very communicative and prompt eith the delivery of my
-              serice. I would absolutely order from him again
-            </p>
-            <div>
-              <img
-                src="/review-image.png"
-                alt=""
-                className="testimonial-review-image"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
+        ))}
+      </Slider>
     </div>
   );
 };
 
-export default TestimonialCard;
+export default TestimonialSlider;

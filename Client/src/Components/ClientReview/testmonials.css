@@ -1,3 +1,8 @@
+.testimonials {
+  overflow: hidden;
+  margin: 0 70px;
+}
+
 .testimonial-container {
   display: flex;
   align-items: center;
@@ -8,10 +13,10 @@
 
 .testimonial-card {
   position: relative;
-  width: 550px;
-  height: 285px;
+  width: 570px;
+  height: 265px;
   border: 1px solid #ddd;
-  margin: 16px;
+  margin-top: 50px;
   padding: 25px 16px;
 }
 
@@ -67,6 +72,17 @@
 }
 
 @media (max-width: 576px) {
+  .testimonials {
+    margin: 0;
+  }
+
+  .testimonial-card {
+    width: auto;
+    height: 300px;
+    margin: 20px;
+    padding: 10px;
+  }
+
   .avatar {
     right: 30px;
     width: 80px;
@@ -75,10 +91,5 @@
 
   .testimonial-review-image {
     display: none;
-  }
-  .testimonial-card {
-    height: auto;
-    margin: 30px;
-    padding: 10px;
   }
 }
