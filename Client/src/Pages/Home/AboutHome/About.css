@@ -1,4 +1,3 @@
-/* -------------------------------------------about-me------------------------------------- */
 .about-me {
   margin-top: 100px;
 }
@@ -73,5 +72,8 @@
   }
   .left-section {
     margin-top: -150px;
+  }
+  .title-center {
+    margin-top: 50px;
   }
 }
