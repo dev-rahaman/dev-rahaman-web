@@ -4,7 +4,7 @@ import VideoIntroduction from "../../../Components/VideoIntodruction/VideoIntrod
 
 const AboutHome = () => {
   return (
-    <dvi>
+    <div>
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <div className="about-me-text">
@@ -37,7 +37,7 @@ const AboutHome = () => {
         </div>
       </div>
       <VideoIntroduction />
-    </dvi>
+    </div>
   );
 };
 
