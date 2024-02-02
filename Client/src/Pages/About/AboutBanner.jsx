@@ -20,10 +20,9 @@ const AboutBanner = () => {
             </div>
             <div className="home__bannar__para">
               <p className="home__bannar__para__txt">
-                I`m Abdur Rahaman Sultany, an accomplished web
-                developer/designer since 2021. With 400+ live web projects
-                across MERN Stack, NextJs, Redux, HTML, CSS, JS, and WordPress,
-                I bring visions to life.
+                I am Abdur Rahman Sultany, a skilled web developer/designer
+                since 2021. Developed countless live websites across MERN Stack,
+                NextJs, HTML, CSS, JavaScript
               </p>
             </div>
             <div className="home__bannar__btn">

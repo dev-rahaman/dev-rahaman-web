@@ -15,9 +15,9 @@ const Footer = () => {
           />
         </Link>
         <p className="footer-paragraph">
-          I`m Abdur Rahaman Sultany, an accomplished web developer/designer
-          since 2021. With 400+ live web projects across MERN Stack, NextJs,
-          Redux, HTML, CSS, JS, and WordPress, I bring visions to life.
+          I am Abdur Rahman Sultany, a skilled web developer/designer since
+          2021. Developed countless live websites across MERN Stack, NextJs,
+          HTML, CSS, JavaScript
         </p>
         <form className="footer-form">
           <input type="email" name="subscribe" id="" className="subscribe" />
@@ -47,6 +47,9 @@ const Footer = () => {
           <ActiveLink to={"mailto:rsabdurrahamansultany3@gamil.com"}>
             rsabdurrahamansultany3@gamil.com
           </ActiveLink>
+          <ActiveLink to={"mailto:rsabdurrahamansultany2@gamil.com"}>
+            rsabdurrahamansultany2@gamil.com
+          </ActiveLink>
         </p>
         <p className="footer-link">
           <strong>Working Hours</strong> : 13/14 hrs
@@ -56,7 +59,7 @@ const Footer = () => {
         <h3>Services</h3>
         <ul>
           <li>
-            <ActiveLink to={"/"}>Branding & Identity</ActiveLink>
+            <ActiveLink to={"/about"}>Branding & Identity</ActiveLink>
           </li>
           <li>
             <ActiveLink to={"/projects"}>Web Design & Development</ActiveLink>

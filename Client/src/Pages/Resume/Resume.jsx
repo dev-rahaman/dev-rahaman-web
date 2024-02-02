@@ -2,7 +2,6 @@
 import React from "react";
 import "./Resume.css";
 import ResumePhape from "../../Components/ResumePhape/ResumePhape";
-import { Link } from "react-router-dom";
 
 const RESUMEPROJECTLINK = ({ Link, name }) => {
   return (
@@ -36,9 +35,9 @@ const Resume = () => {
           number={"5"}
           date={"2023 - Now"}
           shapeHeading={"Abdur Rahaman Sultany"}
-          shapeTitle={"MERN Stack Developer"}
+          shapeTitle={"Web Developer"}
           shapePara={
-            "I am a seasoned MERN Stack developer, bringing years of expertise to the table in crafting intuitive and captivating user interfaces for web applications. My proficiency extends across CSS, JavaScript, React.js, Next.js, and Redux. Committed to staying at the forefront of the industry, I consistently incorporate the latest trends and adhere to best practices in both front-end and full-stack development. he consistently delivers innovative and seamless solutions that exceed client expectations. Clients can trust in his unwavering dedication to excellence for their projects."
+            "I am a seasoned Web developer, bringing years of expertise to the table in crafting intuitive and captivating user interfaces for web applications. My proficiency extends across CSS, JavaScript, React.js, Next.js, and Redux. Committed to staying at the forefront of the industry, I consistently incorporate the latest trends and adhere to best practices in both front-end and backend development. he consistently delivers innovative and seamless solutions that exceed client expectations. Clients can trust in his unwavering dedication to excellence for their projects."
           }
         ></ResumePhape>
         <ResumePhape
@@ -46,9 +45,9 @@ const Resume = () => {
           number={"2"}
           date={"2023 - Now"}
           shapeHeading={"Master in Islamic Scholarship & Web Development"}
-          shapeTitle={"New York University"}
+          shapeTitle={"Jamia Rashidia and self-Learner"}
           shapePara={
-            "In 2021, I completed my master's in Islamic scholarship. Seeking a new challenge, I ventured into computer science, focusing on web development. Now, I'm a full-stack developer with expertise in the MERN stack. I've successfully completed the 'Complete Web Development in MERN Stack' course and contributed to various team projects on platforms like Fiverr and Upwork. This journey reflects my adaptability and commitment to continuous learning, and I look forward to making further strides in the dynamic field of technology."
+            "In 2021, I completed my master's in Islamic scholarship. Seeking a new challenge, I ventured into computer science, focusing on web development. Now, I'm a web developer with expertise in the MERN stack. I've successfully completed the 'Complete Web Development in MERN Stack' course and contributed to various team projects on platforms like Fiverr and Upwork. This journey reflects my adaptability and commitment to continuous learning, and I look forward to making further strides in the dynamic field of technology."
           }
         ></ResumePhape>
 
@@ -56,10 +55,10 @@ const Resume = () => {
           itemTitle={"Experiences"}
           number={"1"}
           date={"2023 - Now"}
-          shapeHeading={"Owner and CEO of yourpost.com"}
+          shapeHeading={"Owner and CEO of dev rahaman & Ikhtinaq"}
           shapeTitle={"Owner and CEO"}
           shapePara={
-            "yourpost.com is A revolutionary all-in-one social media platform combining the best features of Facebook, LinkedIn, Instagram, and Twitter. Share images, videos, and articles, and go live to express yourself. Engage with others through likes, comments, and follows. Join or create interest-based groups. Share posts not only on the platform but also on external websites for wider reach. Regular updates ensure a cutting-edge experience. Join ATG-post today for a dynamic, user-friendly social media journey."
+            "Ikhtinaq is A revolutionary all-in-one social media platform combining the best features of Facebook, LinkedIn, Instagram, and Twitter. Share images, videos, and articles, and go live to express yourself. Engage with others through likes, comments, and follows. Join or create interest-based groups. Share posts not only on the platform but also on external websites for wider reach. Regular updates ensure a cutting-edge experience. Join ATG-post today for a dynamic, user-friendly social media journey."
           }
         ></ResumePhape>
 
@@ -73,18 +72,7 @@ const Resume = () => {
             "HTML, CSS, JavaScript, MERN Stack, React.js, Next.js, Node.js, Express.js,  socket.io, Firebase, MongoDB, Monggose, TailwindCSS, Bootstrap. I have worked a lot of projects with those technologies. in E-commerce store, Social media platform, E-learning platforms, Project management tools, Booking and reservation systems, Food delivery and restaurant reservation, Health and fitness Website, Music and video streaming services, News and media websites, Conversion PSD/XD/Figma, Job portals and freelance marketplaces"
           }
         ></ResumePhape>
-        {/* <ResumePhape
-          itemTitle={"Projects"}
-          number={"4"}
-          date={"2023 - Now"}
-          shapeHeading={"Some projects I've worked on"}
-          shapeTitle={
-            "ATG-Post, The-Cookers, Alive-baby, Dream Jobs, Romo Blogs, Skill-Zone, Cryptiam and more."
-          }
-          shapePara={
-            '<a href="https://example.com">ATG-post: The Ultimate Social Media Experience!</a> Post, Comment, share, Connect Join, and engage with - the all-in-one platform combining Facebook, LinkedIn, Instagram, Twitter, and Other Social media'
-          }
-        ></ResumePhape> */}
+
         <ResumePhape
           itemTitle={"Projects"}
           number={"4"}

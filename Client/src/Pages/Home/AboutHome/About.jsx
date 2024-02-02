@@ -21,7 +21,7 @@ const AboutHome = () => {
             </p>
             <p>
               I also recently launched a course that covers everything you need
-              to build a web app with the MERN Stack.
+              to build a web app.
             </p>
           </div>
           <div className="right-image">
