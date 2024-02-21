@@ -5,33 +5,29 @@ export default function Marquee() {
   return (
     <div className="marquee-container">
       <div className="marquee-slide">
-        <h2>HTML</h2>
-        <h2>CSS</h2>
-        <h2>Javascript</h2>
-        <h2>react</h2>
-        <h2>Next</h2>
-        <h2>Node</h2>
-        <h2>Express</h2>
-        <h2>MongoDB</h2>
-        <h2>Firebase</h2>
-        <h2>TailwindCSS</h2>
-        <h2>Bootstrap</h2>
-        <h2>MERN Stack</h2>
+        <img src="/html-5.svg" alt="" />
+        <img src="/css-3.svg" alt="" />
+        <img src="/js.png" alt="" className="js-logo" />
+        <img src="/react.svg" alt="" />
+        <img src="/nextjs.svg" alt="" />
+        <img src="/mongodb.svg" alt="" />
+        <img src="/firebase.svg" alt="" />
+        <img src="/vite.svg" alt="" />
+        <img src="/tailwind.svg" alt="" />
+        <img src="/react-router.svg" alt="" />
       </div>
 
       <div className="marquee-slide">
-        <h2>HTML</h2>
-        <h2>CSS</h2>
-        <h2>Javascript</h2>
-        <h2>react</h2>
-        <h2>Next</h2>
-        <h2>Node</h2>
-        <h2>Express</h2>
-        <h2>MongoDB</h2>
-        <h2>Firebase</h2>
-        <h2>TailwindCSS</h2>
-        <h2>Bootstrap</h2>
-        <h2>MERN Stack</h2>
+        <img src="/html-5.svg" alt="" />
+        <img src="/css-3.svg" alt="" />
+        <img src="/js.png" alt="" className="js-logo" />
+        <img src="/react.svg" alt="" />
+        <img src="/nextjs.svg" alt="" />
+        <img src="/mongodb.svg" alt="" />
+        <img src="/firebase.svg" alt="" />
+        <img src="/vite.svg" alt="" />
+        <img src="/tailwind.svg" alt="" />
+        <img src="/react-router.svg" alt="" />
       </div>
     </div>
   );

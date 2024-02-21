@@ -41,10 +41,13 @@
 
 .marquee-slide {
   display: inline-block;
-  animation: 35s slide infinite linear;
+  animation: 20s slide infinite linear;
 }
 
-.marquee-slide h2 {
+.marquee-slide img {
+  margin: 0 40px;
+}
+/* .marquee-slide h2 {
   font-size: 48px;
   text-transform: uppercase;
   display: inline-block;
@@ -55,8 +58,11 @@
   text-stroke-color: var(--secondary);
   white-space: nowrap;
   letter-spacing: 1px;
-}
+} */
 
+.js-logo {
+  width: 100px;
+}
 @media (max-width: 576px) {
   .marquee-container {
     margin-top: 20px;
