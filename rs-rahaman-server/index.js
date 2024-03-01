@@ -39,10 +39,10 @@ app.get("/", (req, res) => {
 });
 
 // ----------------------------------COLLECTION----------------------------------
-const WorkSimpleCollection = client.db("rs-rahaman").collection("WorkSimple");
+const WorkSimpleCollection = client.db("Dev-rahaman").collection("Projects");
 
 app.get("/work-simple", async (req, res) => {
-  const result = await WorkSimpleCollection.find().sort({ _id: -1 }).toArray();
+  const result = await WorkSimpleCollection.find().toArray();
   res.send(result);
 });
 
@@ -53,5 +53,5 @@ app.get("/work-simple", async (req, res) => {
 // TODO: Make sure to sort the payment history descending. The newest payment will be at the top
 
 app.listen(port, () => {
-  console.log(`skillz zone is sitting on port ${port}`);
+  console.log(`DevRahaman Server is Running on port ${port}`);
 });

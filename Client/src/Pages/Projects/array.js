@@ -99,17 +99,18 @@
 // ]
 
 [
-    {
-        "projectName": "Gov Tin BD",
-        "projectTitle": "create tin certificate",
-        "projectDescription": "Hi, I am looking for a two page website done in html/css. In the attached file there is a general mockup provided for each page just do you can get a super general idea of what im looking for (the only thing i ask stay the same is the navigation bar contents, and to have a similar 3 picture set up on the home page). Please feel free to reach out with any further questions/ if anything needs clarification        ",
-        "review": "Huge thanks for the fantastic two-page website! You nailed the design, kept things sleek yet functional, and maintained excellent communication throughout. I appreciate your attention to detail and commitment to customer satisfaction. Couldn't be happier with the outcome! He was very communicative and prompt with the delivery of my service. I would absolutely order from him again.",
-        "liveLink": "https://atg-post.web.app/",
-        "gitHub": "https://github.com/dev-rahaman/atg-post",
-        "videoLink": "https://www.youtube.com/@dev-rahaman",
-        "projectImage": "https://i.postimg.cc/L4rJ2rZh/tin-gove.png",
-        "backgroundImage": "https://i.postimg.cc/bvSYSxry/tin-bg.jpg",
-        "simpleImage": "https://i.postimg.cc/rmtdc6x9/tin-simple.jpg"
-      }
-    
-]
+  {
+    projectName: "Gov Tin BD",
+    projectTitle: "create tin certificate",
+    projectDescription:
+      "Hi, I am looking for a two page website done in html/css. In the attached file there is a general mockup provided for each page just do you can get a super general idea of what im looking for (the only thing i ask stay the same is the navigation bar contents, and to have a similar 3 picture set up on the home page). Please feel free to reach out with any further questions/ if anything needs clarification        ",
+    review:
+      "Huge thanks for the fantastic two-page website! You nailed the design, kept things sleek yet functional, and maintained excellent communication throughout. I appreciate your attention to detail and commitment to customer satisfaction. Couldn't be happier with the outcome! He was very communicative and prompt with the delivery of my service. I would absolutely order from him again.",
+    liveLink: "https://atg-post.web.app/",
+    gitHub: "https://github.com/dev-rahaman/atg-post",
+    videoLink: "https://www.youtube.com/@dev-rahaman",
+    projectImage: "https://i.postimg.cc/L4rJ2rZh/tin-gove.png",
+    backgroundImage: "https://i.postimg.cc/bvSYSxry/tin-bg.jpg",
+    simpleImage: "https://i.postimg.cc/rmtdc6x9/tin-simple.jpg",
+  },
+];

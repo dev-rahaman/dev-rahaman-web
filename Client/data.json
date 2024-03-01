@@ -1,0 +1,98 @@
+[
+  {
+    "projectName": "ARB",
+    "projectTitle": "Awesome Resume builder",
+    "projectDescription": "Create professional resumes in minutes with ARB! Explore a diverse range of stunning templates, tailor them to perfection, and download your masterpiece for free. Say hello to your dream job with ARB(Awesome Resume uilder)!",
+    "review": "Craft your ideal resume effortlessly with ARB (Awesome Resume Builder)! Unlock a plethora of polished templates, customize them to your exact specifications, and secure your dream job in minutes. Say goodbye to tedious formatting and hello to career success with ARB!",
+    "liveLink": "https://arb-awesome-resume-builder.web.app/",
+    "gitHub": "https://github.com/dev-rahaman/",
+    "videoLink": "https://www.youtube.com/@dev-rahaman",
+    "projectImage": "https://i.postimg.cc/gcDHtq78/abdur-rahaman-sultany-full-stack-developer-mern-stack-developer-web-developer-dev-rahamn-rahaman-d.png",
+    "backgroundImage": "https://i.postimg.cc/RVV40C4V/alive-baby-imple.jpg",
+    "simpleImage": "https://i.postimg.cc/63t6BWyw/proshno-Potro-2.jpg"
+  },
+  {
+    "projectName": "Chronicles",
+    "projectTitle": "Chronicles interview Question Book",
+    "projectDescription": "I'm on the lookout for a skilled developer to build a website for my book, 'ProsnoPotro.' Think along the lines of https://learnwithsumit.com, but with a unique twist to showcase the distinct content of my book. and user will be able to download the book after completing the book  Let's make something fantastic together!",
+    "review": "Working with Dev Rahaman on my book's website was fantastic! The site, inspired by https://learnwithsumit.com, beautifully showcases my content with a unique twist. Users can download the book post-completion. Rahaman demonstrated top-notch skills and communication. Highly recommend!",
+    "liveLink": "https://mern-faq.web.app",
+    "gitHub": "https://github.com/dev-rahaman/mern-faq-2.0",
+    "videoLink": "https://www.youtube.com/@dev-rahaman",
+    "projectImage": "https://i.postimg.cc/gcDHtq78/abdur-rahaman-sultany-full-stack-developer-mern-stack-developer-web-developer-dev-rahamn-rahaman-d.png",
+    "backgroundImage": "https://i.postimg.cc/13V3H7kx/proshno-Potro1.jpg",
+    "simpleImage": "https://i.postimg.cc/63t6BWyw/proshno-Potro-2.jpg"
+  },
+  {
+    "projectName": "Alive Baby",
+    "projectTitle": "Toys Marketplace",
+    "projectDescription": "Create visually appealing website with pleasing color contrast. Customize design components, avoiding similarities to previous projects. Maintain navbar and footer across pages, excluding 404. Include navbar items conditionally based on login status. Implement robust login and registration systems with error handling. Design homepage with banner, gallery, and categorized toy sections. Add two relevant and attractive sections. Develop a blogs page answering specific questions. Build an 'All Toys' page with a tabular display, search functionality, and login prompts. Create private routes for single toy details, adding a toy, and managing user-specific toys. Implement CRUD operations with relevant notifications. Design a 404 page with a back-to-home button. Use environment variables to secure Firebase and MongoDB credentials.",
+    "review": "Kudos on the fantastic website! Your design finesse, seamless functionality, and attention to detail made this project a standout. I'm thoroughly pleased and would highly recommend your services.",
+    "liveLink": "https://alive-baby.web.app/",
+    "gitHub": "https://github.com/dev-rahaman/mern-faq-2.0",
+    "videoLink": "https://www.youtube.com/@dev-rahaman",
+    "projectImage": "https://i.postimg.cc/Nj33RQqX/alive-baby.png",
+    "backgroundImage": "https://i.postimg.cc/RVV40C4V/alive-baby-imple.jpg",
+    "simpleImage": "https://i.postimg.cc/pd8tSpYk/alive-baby-bg.jpg "
+  },
+  {
+    "projectImage": "https://i.postimg.cc/ZYgBWP80/ecommerce.png",
+    "projectName": "E-commerce Dashboard",
+    "projectTitle": "E-commerce Dashboard",
+    "projectDescription": "create a E-commerce Dashboard for my e-commerce website. the dashboard contains a lot of features user will able to add, delete, edit their there products they can see their all products order management system all order completed order and cancel order there users all users, customers, signup users and authentication system sign up form and login form and their own profiles Payment system payment processing, commission, request a payment, inventory system stock tracking, low stock alert, product variation. Marketing and promotion system, Discount & coupon Product recommendation, Email Marketing. Category system Product Categories etc. support, and live chat system etc.",
+    "review": "Exceptional experience! The one-page website perfectly showcases my skills with a sleek design and dynamic content. The sidebar navigation is intuitive, and the integration of social media icons adds a professional touch. The use of Next.js and Tailwind CSS truly elevated the overall aesthetics. Extremely satisfied with the outcome!",
+    "liveLink": "https://e-cmmerce-dashboard.vercel.app/dashboard",
+    "gitHub": "https://github.com/dev-rahaman/e-commerce-dashboard",
+    "videoLink": "https://www.youtube.com/@dev-rahaman",
+    "backgroundImage": "https://i.postimg.cc/4dw1xRcr/ecommerce-dashboard-simple.jpg",
+    "simpleImage": "https://i.postimg.cc/kXksVddP/sultany-Template.jpg"
+  },
+  {
+    "projectImage": "https://i.postimg.cc/rF2gqqV7/sultany-Template.png",
+    "projectName": "Jeffrey",
+    "projectTitle": "Portfolio Website",
+    "projectDescription": "I want a fantastic one-page website to showcase my skills. It will feature a sleek sidebar on the left with links for 'Home, About, Contact, Services, Portfolio, Blogs.' Clicking a link will dynamically display relevant content. The page will also include icons for Facebook, Twitter, and LinkedIn. The bottom will have a stylish footer with copyright information. To build this, I'd like to use Next.js and enhance the design with Tailwind CSS.",
+    "review": "Exceptional experience! The one-page website perfectly showcases my skills with a sleek design and dynamic content. The sidebar navigation is intuitive, and the integration of social media icons adds a professional touch. The use of Next.js and Tailwind CSS truly elevated the overall aesthetics. Extremely satisfied with the outcome!",
+    "liveLink": "https://sultany-template-y6zm.vercel.app",
+    "gitHub": "https://github.com/dev-rahaman/sultany-template",
+    "videoLink": "https://www.youtube.com/embed/BJ2VqM1V_hQ?si=pk1Wv1jiq22zPP3N",
+    "backgroundImage": "https://i.postimg.cc/pTwQmDgY/sultany-Template-BGC.jpg",
+    "simpleImage": "https://i.postimg.cc/kXksVddP/sultany-Template.jpg"
+  },
+  {
+    "projectName": "KIRITI KOMARAGIRI",
+    "projectTitle": "Resume Template",
+    "projectDescription": "I have a resume PDF template based on the existing site. I would like someone to polish the template based on the reference so that the output should match exactly with the PDF. I want to site will develop Next.js and TailwindCSS. ",
+    "review": "I'm thrilled with the resume template you crafted using Next.js and TailwindCSS. Your attention to detail and commitment to matching the reference was spot-on. The polished result exceeded my expectations. Your professionalism and responsiveness made the collaboration seamless. I highly recommend your services!",
+    "liveLink": "https://resume-template-project.vercel.app",
+    "gitHub": "https://github.com/dev-rahaman/resume-template-upwork2",
+    "videoLink": "https://www.youtube.com/@dev-rahaman",
+    "projectImage": "https://i.postimg.cc/hPVxG1gg/resume-template.png",
+    "backgroundImage": "https://i.postimg.cc/Z5ZNvvKN/resume-template1.jpg",
+    "simpleImage": "https://i.postimg.cc/CM3kY63m/resume-template-2.jpg"
+  },
+  {
+    "projectName": "TIN Certificate",
+    "projectTitle": "Create tin certificate",
+    "projectDescription": "Hi, I am looking for a two page website done in html/css. In the attached file there is a general mockup provided for each page just do you can get a super general idea of what im looking for (the only thing i ask stay the same is the navigation bar contents, and to have a similar 3 picture set up on the home page). Please feel free to reach out with any further questions/ if anything needs clarification        ",
+    "review": "Huge thanks for the fantastic two-page website! You nailed the design, kept things sleek yet functional, and maintained excellent communication throughout. I appreciate your attention to detail and commitment to customer satisfaction. Couldn't be happier with the outcome! He was very communicative and prompt with the delivery of my service. I would absolutely order from him again.",
+    "liveLink": "https://gov-tin.web.app/",
+    "gitHub": "https://github.com/dev-rahaman/mern-faq-2.0",
+    "videoLink": "https://www.youtube.com/@dev-rahaman",
+    "projectImage": "https://i.postimg.cc/L4rJ2rZh/tin-gove.png",
+    "backgroundImage": "https://i.postimg.cc/bvSYSxry/tin-bg.jpg",
+    "simpleImage": "https://i.postimg.cc/rmtdc6x9/tin-simple.jpg"
+  },
+  {
+    "projectName": "Jalbada",
+    "projectTitle": "HTML Template",
+    "projectDescription": "Hi, I am looking for a two page website done in html/css. In the attached file there is a general mockup provided for each page just do you can get a super general idea of what im looking for (the only thing i ask stay the same is the navigation bar contents, and to have a similar 3 picture set up on the home page). Please feel free to reach out with any further questions/ if anything needs clarification        ",
+    "review": "Huge thanks for the fantastic two-page website! You nailed the design, kept things sleek yet functional, and maintained excellent communication throughout. I appreciate your attention to detail and commitment to customer satisfaction. Couldn't be happier with the outcome! He was very communicative and prompt with the delivery of my service. I would absolutely order from him again.",
+    "liveLink": "https://dev-rahaman.github.io/Javlaba",
+    "gitHub": "https://github.com/dev-rahaman/Javlaba",
+    "videoLink": "https://www.youtube.com/@dev-rahaman",
+    "projectImage": "https://i.postimg.cc/jSXcykdR/javlada.png",
+    "backgroundImage": "https://i.postimg.cc/26pxYp0F/vlada-bg.jpg",
+    "simpleImage": "https://i.postimg.cc/3w0ZzrFx/javlada-simple.jpg"
+  }
+]
