@@ -6,14 +6,12 @@ const Projects = () => {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-    fetch("https://rs-rahaman-server.vercel.app/work-simple")
+    fetch("https://rs-rahaman-server.vercel.app/projects")
       .then((res) => res.json())
       .then((data) => {
         setProjects(data);
       });
   }, []);
-
-  console.log(projects);
 
   return (
     <>

@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 require("dotenv").config();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 7000;
 
 // middleware
 // app.use(cors());
@@ -41,16 +41,22 @@ app.get("/", (req, res) => {
 // ----------------------------------COLLECTION----------------------------------
 const WorkSimpleCollection = client.db("Dev-rahaman").collection("Projects");
 
-app.get("/work-simple", async (req, res) => {
+app.get("/projects", async (req, res) => {
   const result = await WorkSimpleCollection.find().toArray();
   res.send(result);
 });
 
-// ----------------------------------ADMIN END----------------------------------
-
-// PAYMENT RELATED API
-
-// TODO: Make sure to sort the payment history descending. The newest payment will be at the top
+app.get("/projects/:id", async (req, res) => {
+  const id = req.params.id;
+  const filter = { _id: new ObjectId(id) };
+  try {
+    const project = await WorkSimpleCollection.findOne(filter);
+    res.send(project);
+  } catch (error) {
+    console.error(error);
+    res.status(500).send("An error occurred while updating the like count.");
+  }
+});
 
 app.listen(port, () => {
   console.log(`DevRahaman Server is Running on port ${port}`);

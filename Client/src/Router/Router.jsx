@@ -20,7 +20,7 @@ const Router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
-        loader: () => fetch("https://rs-rahaman.vercel.app/work-simple"),
+        loader: () => fetch("https://rs-rahaman-server.vercel.app/projects"),
       },
       {
         path: "/about",
@@ -60,7 +60,7 @@ const Router = createBrowserRouter([
         path: "/projects/:id",
         element: <ProjectDetails />,
         loader: ({ params }) =>
-          fetch(`https://rs-rahaman.vercel.app/work-simple/${params.id}`),
+          fetch(`https://rs-rahaman-server.vercel.app/projects/${params.id}`),
       },
     ],
   },
