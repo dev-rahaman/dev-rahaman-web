@@ -100,17 +100,18 @@
 
 [
   {
-    projectName: "Gov Tin BD",
-    projectTitle: "create tin certificate",
+    projectName: "Next-editor-BD",
+    projectTitle: "Next-Editor-BD a Simple Web Text Editor",
     projectDescription:
-      "Hi, I am looking for a two page website done in html/css. In the attached file there is a general mockup provided for each page just do you can get a super general idea of what im looking for (the only thing i ask stay the same is the navigation bar contents, and to have a similar 3 picture set up on the home page). Please feel free to reach out with any further questions/ if anything needs clarification        ",
+      "Next-Editor-BD is a straightforward web text editor that prioritizes simplicity and functionality. It offers essential features for text editing without unnecessary distractions, making it easy to use for various writing tasks. Accessible from any device with an internet connection, it's a convenient tool for quick and efficient text editing on the go.",
     review:
-      "Huge thanks for the fantastic two-page website! You nailed the design, kept things sleek yet functional, and maintained excellent communication throughout. I appreciate your attention to detail and commitment to customer satisfaction. Couldn't be happier with the outcome! He was very communicative and prompt with the delivery of my service. I would absolutely order from him again.",
-    liveLink: "https://atg-post.web.app/",
-    gitHub: "https://github.com/dev-rahaman/atg-post",
+      "Next-Editor-BD is a straightforward web text editor that prioritizes simplicity and functionality. It offers essential features for text editing without unnecessary distractions, making it easy to use for various writing tasks. Accessible from any device with an internet connection, it's a convenient tool for quick and efficient text editing on the go.",
+    liveLink: "https://next-editor-bd.web.app/",
+    gitHub:
+      "https://github.com/dev-rahaman/YT-Next-Projects/tree/master/text-editor/",
     videoLink: "https://www.youtube.com/@dev-rahaman",
-    projectImage: "https://i.postimg.cc/L4rJ2rZh/tin-gove.png",
-    backgroundImage: "https://i.postimg.cc/bvSYSxry/tin-bg.jpg",
-    simpleImage: "https://i.postimg.cc/rmtdc6x9/tin-simple.jpg",
+    projectImage: "https://i.postimg.cc/zvp0D4Jv/next-text-editor.png",
+    backgroundImage: "https://i.postimg.cc/9F6qRJrQ/text.webp",
+    simpleImage: "https://i.postimg.cc/W10qMgk6/text-text.webp",
   },
 ];
