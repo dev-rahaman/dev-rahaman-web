@@ -1,0 +1,67 @@
+.containerf {
+  margin: 50px;
+}
+
+.inputFields {
+  display: flex;
+  gap: 50px;
+}
+
+input {
+  width: 380px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-bottom: 1.5px solid var(--third);
+  color: #fff;
+  background-color: transparent;
+}
+
+label {
+  color: #fff;
+  display: block;
+  top: 40px;
+  transition: top 0.3s;
+}
+
+input:focus {
+  border-bottom: 1.5px solid #fff;
+  background-color: transparent;
+}
+
+.messageTow {
+  margin-top: 60px;
+}
+
+.ContactFormTwoMessage {
+  width: 100%;
+}
+
+.ContactFormTwoMessage:focus {
+  background-color: transparent;
+}
+
+.btn-container {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ======================== */
+@media (max-width: 576px) {
+  .inputFields {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  input {
+    width: 300px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 1.5px solid var(--third);
+    color: #fff;
+    background-color: transparent;
+  }
+}

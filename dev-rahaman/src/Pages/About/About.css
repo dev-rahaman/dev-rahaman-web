@@ -1,0 +1,148 @@
+/* Cart.css */
+.about-container {
+  margin: 50px 30px;
+}
+
+.border-cart-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-cart-image {
+  width: 250px;
+  border-radius: 50%;
+}
+
+.about-my-photo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.about-my-photo {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.settings-animation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.art {
+  font-size: 30px;
+  color: #fff;
+  transform: translate(-10%, -10%);
+  animation: myFirst 1.5s infinite linear;
+}
+
+@keyframes myFirst {
+  0% {
+    transform: translate(-10%, -10%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-10%, -10%) rotate(360deg);
+  }
+}
+
+.art2 {
+  font-size: 30px;
+  color: #fff;
+  transform: translate(-10%, -10%);
+  animation: mySecond 1.5s infinite linear;
+}
+
+@keyframes mySecond {
+  0% {
+    transform: translate(-10%, -10%) rotate(360deg);
+  }
+  100% {
+    transform: translate(-10%, -10%) rotate(0deg);
+  }
+}
+
+.cart {
+  width: 90%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.cart-heading {
+  font-size: 40px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.cart-title {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.cart-bio {
+  color: #cccccc;
+  font-size: 20px;
+  line-height: 35px;
+  padding-bottom: 20px;
+}
+
+.cart-phone,
+.cart-email {
+  font-size: 20px;
+}
+
+.cart-social-links {
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+.cart-social-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cart-social-links li {
+  margin-bottom: 5px;
+}
+
+.cart-social-links a {
+  text-decoration: none;
+}
+
+.social {
+  font-size: 30px;
+  background-color: #112240;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 3px;
+  color: #ccc;
+}
+
+.social:hover {
+  background-color: var(--hover);
+}
+
+.link {
+  color: #ebd8b2;
+}
+
+@media (max-width: 576px) {
+  .social {
+    margin: 10px;
+  }
+  .cart-title {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  .cart-heading {
+    font-size: 25px;
+  }
+}

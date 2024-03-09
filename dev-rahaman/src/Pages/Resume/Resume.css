@@ -1,0 +1,16 @@
+.shape-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+  flex-wrap: wrap;
+}
+
+.resume-project-link {
+  margin: 5px;
+  text-transform: uppercase;
+}
+
+.resume-project-link:hover {
+  color: var(--secondary);
+}
