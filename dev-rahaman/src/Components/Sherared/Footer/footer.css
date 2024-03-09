@@ -4,6 +4,7 @@
   padding: 20px;
   background-color: #15171c;
   flex-wrap: wrap;
+  position: relative;
 }
 
 .footer-logo {
@@ -22,9 +23,9 @@
 }
 
 .footer-link {
-  font-size: 19px;
+  font-size: 16px;
   color: var(--third);
-  line-height: 40px;
+  line-height: 25px;
 }
 
 .footer-link a {
@@ -36,9 +37,9 @@
 }
 
 .footer-paragraph {
-  font-size: 19px;
+  font-size: 16px;
   color: var(--third);
-  line-height: 40px;
+  line-height: 25px;
 }
 
 .footer-column h3 {
@@ -46,8 +47,8 @@
 }
 
 .footer-column ul li {
-  font-size: 19px;
-  line-height: 40px;
+  font-size: 16px;
+  line-height: px;
 }
 
 .footer-column ul li a:hover {
@@ -61,29 +62,40 @@
 }
 
 .subscribe {
-  width: 250px;
-  font-size: 30px;
   background-color: #15171c;
   transition: 0.5s;
-  border-bottom: 1px solid #dd4242;
+  height: 35px;
+  border: 1px solid #dd4242;
+  border-radius: 50px;
   color: #fff;
-  margin-right: 20px;
-  display: block;
   outline: none;
 }
 
 .subscribe:focus {
   border: none;
   outline: none;
-  border-bottom: 1px solid red;
+  background: none;
+}
+
+.subscribe-input {
+  border-radius: 5rem;
+  outline: none;
+  border: 0.1rem solid #d1d1d1;
+  font-size: 0.7rem;
+}
+
+::placeholder {
+  color: #d1d1d1;
 }
 
 .subscribe-btn {
-  width: 150px;
-  height: 50px;
-  font-size: 20px;
-  font-weight: bold;
-  border-radius: 50px;
+  padding: 0.5rem 1.25rem;
+  border-radius: 5rem;
+  background: linear-gradient(90deg, #ff9966, #ff5e62);
+  color: #fff;
+  font-size: 0.7rem;
+  border: none;
+  outline: none;
   cursor: pointer;
 }
 
@@ -94,11 +106,21 @@
   }
 
   .subscribe {
-    width: 230px;
+    width: 250px;
   }
-  .subscribe-btn {
-    padding: 0 15px;
-    width: auto;
-    height: 50px;
+
+  .subscribe-input {
+    width: 150px;
+    font-size: 0.7rem;
+  }
+
+  .card-content {
+    position: absolute;
+    top: 27%;
+    left: 35%;
+    border-radius: 1rem;
+    padding: 4rem 0.5rem;
+    box-shadow: 1px 1px 2rem rgba(0, 0, 0, 0.3);
+    text-align: center;
   }
 }

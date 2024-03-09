@@ -1,9 +1,32 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import ActiveLink from "../../ActiveLink/ActiveLink";
 import "./footer.css";
 
 const Footer = () => {
+  const [email, setEmail] = useState("");
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    try {
+      const response = await fetch(
+        "https://dev-rahaman-server.vercel.app/subscriber",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ email }),
+        }
+      );
+      const data = await response.json();
+      console.log(data);
+      setEmail("");
+    } catch (error) {
+      console.error("Error:", error);
+    }
+  };
+
   return (
     <footer className="footer">
       <div className="footer-column">
@@ -19,8 +42,17 @@ const Footer = () => {
           2021. Developed countless live websites across MERN Stack, NextJs,
           HTML, CSS, JavaScript
         </p>
-        <form className="footer-form">
-          <input type="email" name="subscribe" id="" className="subscribe" />
+        <form onSubmit={handleSubmit} className="footer-form">
+          {/* <input type="email" name="subscribe" id="" className="subscribe" /> */}
+          <input
+            type="email"
+            name="subscribe"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            className="subscribe"
+            placeholder="Enter your email"
+            required
+          />
           <button type="submit" className="subscribe-btn">
             Subtribe
           </button>

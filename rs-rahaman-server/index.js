@@ -40,6 +40,7 @@ app.get("/", (req, res) => {
 
 // ----------------------------------COLLECTION----------------------------------
 const WorkSimpleCollection = client.db("Dev-rahaman").collection("Projects");
+const Subscriber = client.db("Dev-rahaman").collection("Subscriber");
 
 app.get("/projects", async (req, res) => {
   const result = await WorkSimpleCollection.find().toArray();
@@ -55,6 +56,24 @@ app.get("/projects/:id", async (req, res) => {
   } catch (error) {
     console.error(error);
     res.status(500).send("An error occurred while updating the like count.");
+  }
+});
+
+app.post("/subscriber", async (req, res) => {
+  try {
+    const { email } = req.body;
+    if (!email) {
+      return res.status(400).json({ message: "Email is required" });
+    }
+    const existingSubscriber = await Subscriber.findOne({ email });
+    if (existingSubscriber) {
+      return res.status(400).json({ message: "Email is already subscribed" });
+    }
+    await Subscriber.insertOne({ email });
+    res.status(201).json({ message: "Subscription successful!" });
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ message: "Internal server error" });
   }
 });
 
